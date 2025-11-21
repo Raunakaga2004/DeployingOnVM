@@ -2,7 +2,7 @@ import express from "express"
 
 const app = express();
 
-app.get('/', (req, res)=>{
+app.get('/', (req : any, res : any)=>{
   return res.json({
     message : "hi this is server"
   })
